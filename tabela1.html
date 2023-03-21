@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabela 01</title>
+    <style>
+      table {
+        width: 30%;
+      }
+      table,
+      tr,
+      td {
+        border: 1px solid;
+        border-collapse: collapse;
+      }
+
+      td {
+        height: 45px;
+      }
+
+      .a-center {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="a-center"> Tabela 01</h1>
+    </header>
+
+    <main>
+      <section>
+        <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr class="a-center">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr style="text-align: right">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </table>
+      </section>
+      <br />
+      <section>
+        <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td colspan="3" class="a-center">4</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </table>
+      </section>
+
+      <br />
+
+      <section>
+        <table>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="3" class="a-center">3</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="a-center">4</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+        </table>
+      </section>
+      <br />
+    </main>
+  </body>
+</html>
